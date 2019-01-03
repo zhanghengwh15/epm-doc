@@ -25,18 +25,16 @@ bingosoft-epm
 ├─bash 脚本语句
 ├─doc  项目脚本语句
 ├─uums 公共用户管理系统   /epm-uums
-├─bingosoft-epm-base-api 基础模块（必须）  
-├─bingosoft-epm-base-web 基础web服务（必须） 
-├─bingosoft-epm-task-api基础模块（必须） 
-├─bingosoft-epm-task-web 任务模块web（必须） 
-├─bingosoft-epm-base-web 基础模块（必须） 
-├─bingosoft-epm-base-web 基础模块（必须） 
-├─bingosoft-epm-safqua-api 安全质量（非必须）
-├─bingosoft-epm-safqua-web 安全质量（非必须）
-├─bingosoft-epm-elec-api 机电施工（非必须）
-├─bingosoft-epm-elec-web 机电施工（非必须）
-├─bingosoft-epm-engine-api 土建施工（非必须）
-├─bingosoft-epm-engine-web 土建施工（非必须）
+├─bingosoft-epm-base-api 基础模块（必须）  /epm-base-api
+├─bingosoft-epm-base-web 基础web服务（必须） /epm-base-web
+├─bingosoft-epm-task-api基础模块（必须）  /epm-task-api/task
+├─bingosoft-epm-task-web 任务模块web（必须） /epm-task-web
+├─bingosoft-epm-safqua-api 安全质量（非必须）/epm-safqua-api
+├─bingosoft-epm-safqua-web 安全质量（非必须）/epm-safqua-web
+├─bingosoft-epm-elec-api 机电施工（非必须）/epm-elec-api
+├─bingosoft-epm-elec-web 机电施工（非必须）/epm-elec-web
+├─bingosoft-epm-engine-api 土建施工（非必须）/epm-engine-api
+├─bingosoft-epm-engine-web 土建施工（非必须）/epm-elec-web
 
 ```
 <br> 
