@@ -55,6 +55,10 @@ new Docute({
           title: '日志更改',
           link: '/guide/log'
         },
+        {
+          title: '页面开发',
+          link: '/guide/page'
+        },
       /*  {
           title: '自定义',
           link: '/guide/customization'
