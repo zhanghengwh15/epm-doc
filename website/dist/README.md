@@ -92,7 +92,7 @@ mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc8 -Dversion=10.2
 http://192.168.100.24:30078/sso  改为 http://61.178.19.46:30078/sso/
 ```
 
- sso 的修改 http://192.168.100.24:30078/sso 修改为
+ sso 的修改 `http://192.168.100.24:30078/sso` 修改为
 ``` xml
 <servlet>
 		<servlet-name>ssoclient</servlet-name>
@@ -143,5 +143,10 @@ public class PrjResourceModel extends Model {
 ```
 
 2、删除多余的配置 删掉 bingosoft-epm.xml
+
+- 多余的jar包删除 有2018等结尾的
+
+3、菜单没有，删除redis的缓存
+
 
 

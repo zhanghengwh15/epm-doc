@@ -59,6 +59,10 @@ new Docute({
           title: '页面开发',
           link: '/guide/page'
         },
+        {
+          title: '工作流',
+          link: '/guide/Workflow'
+        },
       /*  {
           title: '自定义',
           link: '/guide/customization'
