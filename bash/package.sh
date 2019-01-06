@@ -6,4 +6,4 @@ if [ -d "${projectUnZip}" ]; then
 fi
 
 #mv /Users/zhangheng/git/vue/epm-doc/website/dist/* /Users/zhangheng/git/subway/epm-doc/docs
-cd  /Users/zhangheng/git/subway/epm-doc && git add -A && git commit -m "提交文档"  && git push -u origin master
+cd  /Users/zhangheng/git/subway/epm-doc && gcam "改文档";gp
