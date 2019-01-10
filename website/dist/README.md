@@ -89,10 +89,9 @@ mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc8 -Dversion=10.2
 <properties>
 		<property name="redis.hostAndPorts">127.0.0.1:6379</property>
 </properties>
-http://192.168.100.24:30078/sso  改为 http://61.178.19.46:30078/sso/
-```
 
- sso 的修改 `http://192.168.100.24:30078/sso` 修改为
+```
+` http://192.168.100.24:30078/sso` `http://61.178.19.46:30078/sso/`  改为 `http://epm.projects.bingosoft.net:20037/sso`
 ``` xml
 <servlet>
 		<servlet-name>ssoclient</servlet-name>
@@ -100,7 +99,7 @@ http://192.168.100.24:30078/sso  改为 http://61.178.19.46:30078/sso/
 		<init-param>
 			<param-name>ssoBaseEndpoint</param-name>
 			<!--单点登录地址-->
-		<param-value>http://61.178.19.46:30078/sso</param-value>
+		<param-value>http://epm.projects.bingosoft.net:20037/sso</param-value>
 		</init-param>
 		<init-param>
 			<param-name>clientId</param-name>
