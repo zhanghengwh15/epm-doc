@@ -5,7 +5,7 @@ import prismLanguages from '../src/utils/prismLanguages'
 new Docute({
   target: 'app',
   title: 'bingosoft-epm 文档',
-  highlight: ['typescript', 'bash','java','xml','sql'],
+  highlight: ['typescript', 'bash','java','xml','sql', 'css', 'js'],
   plugins: [
     process.env.NODE_ENV === 'production' && googleAnalytics('UA-54857209-11')
   ].filter(Boolean),
@@ -58,6 +58,10 @@ new Docute({
         {
           title: '页面开发',
           link: '/guide/page'
+        },
+        {
+          title: '查询样式',
+          link: '/guide/query'
         },
         {
           title: '工作流',
